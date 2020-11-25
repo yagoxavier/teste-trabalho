@@ -1,0 +1,482 @@
+.main_header{
+    width: 100%;
+    background-color: #190D01;
+}
+
+.main_header .main_header_content{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_header .main_header_content .logo img{
+    flex-basis: 300px;
+    margin: 15px 0;
+    padding: 20px;
+    width: 300px;
+    align-items: center;
+}
+
+.main_header .main_header_content .main_header_content_menu {
+    flex-basis: calc(100% - 300px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_header_content_menu ul{
+    display: flex;
+    align-items: stretch;
+}
+
+.main_header_content_menu ul li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.main_header_content_menu ul li a{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #FFFAFA;
+    font-weight: 700;
+}
+
+.main_header_content_menu ul li a:hover{
+    color: #190D01;
+    background-color: #FFFAFA;
+    font-weight: 700;
+}
+
+/* Conteúdo da Primeira Dobra */
+.main_cta{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.main_cta .main_video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main_cta .main_video > video{
+    width: 100%;
+}
+
+.main_cta_content h1{
+    text-align: center;
+    color: #FFFAFA;
+    font-size: 3em;
+    padding: 20px;
+}
+
+.main_cta_content p{
+    color:#FFFAFA;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main_cta_content .btn{
+    background-color: #FFFAFA;
+    font-weight: 700;
+    color: #190D01;
+    padding: 8px 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_cta_content a:hover{
+    color: #FFFAFA;
+    background-color: #B19239;
+}
+
+/* Conteúdo da Terceira dobra ou Setor */
+.main_setor{
+    width: 100%;
+    background-image: url(../_img/pl/PL-vermelho.zip);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main_setor .main_setor_header{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main_setor .main_setor_header img{
+    padding: 40px 0;
+    width: 500px;
+}
+
+.main_setor .main_setor_header p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* COntepudo da Segunda Dobra ou Empresa*/
+.main_company{
+    width: 100%;
+    background-color: #591216;
+}
+
+.main_company h1{
+    font-size: 2em;
+    color: #FFFAFA;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main_company > p{
+    color: #D3D3D3;
+    padding: 0 20px;
+    text-align: justify;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_company_content{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_company_content{
+    margin-top: 40px;
+    display: flex;
+}
+
+.main_company_content_mission{
+    flex-basis: calc(50% - 10px);
+    background-color: #C0C0C0;
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-align: center;
+}
+
+.main_company_content_mission h2{
+    font-size: 1.42em;
+    margin-bottom: 10px;
+}
+
+.main_company_content_vision{
+    flex-basis: calc(50% - 10px);
+    background-color: #C0C0C0;
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-align: center;
+}
+
+.main_company_content_vision h2{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.main_company_content_rights{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_company_content_rights > header{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main_company_content_rights > header h2{
+    font-size: 1.4em;
+}
+
+.main_company_content_rights > article{
+    flex-basis: calc(50% - 10px);
+}
+
+.main_company_content_rights > article h3{
+    padding: 0 10px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+
+.main_company_content_ajuste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main_company_content_ajuste article{
+    flex-basis: calc(50% - 20px);
+    padding: 20px;
+    border: 1px solid #C0C0C0;
+    margin: 20px 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #C0C0C0;    
+}
+
+.main_company_content_ajuste h2{
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main_company_content_ajuste h3{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main_company_content_ajuste p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.main_company_content_ajuste ul{
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_company_content_ajuste li{
+    flex-basis: 50%;
+    text-align: center;
+    margin: 3px 0;
+}
+/* Dobra de Departamento */
+.main_setor .main_setor_content{
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.main_setor .main_setor_content > article{
+    flex-basis: calc(33% - 20px);
+    margin: 20px 0;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+}
+
+.main_setor .main_setor_content > article h2{
+    text-align: center;
+    font-size: 1.3em;
+    color: #333;
+    margin: 20px 0;
+}
+
+.main_setor .main_setor_content > article h3{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main_setor .main_setor_content > article ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.main_setor .main_setor_content > article ul li{
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+/* COnteúdo da Quarta Dobra ou Gestor */
+.main_gestor{
+    width: 100%;
+    background-color: #190D01;
+}
+
+.main_gestor_content{
+    max-width: calc(1300px - 80px);
+    padding: 40px;
+    margin: 0 auto;
+    color: #FFFAFA;
+    text-align: center;
+}
+
+.main_gestor_content h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main_gestor_content_img{
+    margin: 20px auto;
+}
+
+.main_gestor_content_img img{
+    max-width: 200px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 3px;
+    background-color: #FFFAFA;
+}
+
+.main_gestor_content_history h2{
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.main_gestor_content_history p{
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.main_gestor_content_network{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #B19239;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main_gestor_content_network > header{
+    flex-basis: 100%;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_gestor_content_network > article{
+    flex-basis: 32%;
+}
+
+.main_gestor_content_network > article h3{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.main_gestor_content_network > article h3 a{
+    background-color: #FFFAFA;
+    color: #190D01;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.main_gestor_content_network > article h3 a:hover{
+    background-color: #591216;
+    color: #FFFAFA;
+}
+
+.main_projects{
+    max-width: 100%;
+    background-color: #D3D3D3;
+}
+
+.main_projects .main_projects_content{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_projects .main_projects_content > header{
+    flex-basis: 100%;
+    font-size: 2em;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.main_projects .main_projects_content article{
+    margin: 20px;
+    flex-basis: calc(50% - 40px);
+    background-color: #591216;
+    padding: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_projects .main_projects_content article h2{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    color: #FFFAFA;
+}
+
+.main_projects .main_projects_content article header p{
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #C0C0C0;
+    font-size: 1em;
+}
+
+.main_projects .main_projects_content article p{
+    color: #FFFAFA;
+    font-size: 0.7em;
+    text-align: left;
+}
+
+
+.main_address{
+    width: 100%;
+    background-color: #190D01;
+}
+
+.main_address_content{
+    color: #FFFAFA;
+    text-align: center;
+}
+
+.main_address_content img{
+    max-width: 200px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.main_address_content h1{
+    font-size: 2em;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.main_address_content p{
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.main_footer{
+    background-color: #D3D3D3;
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 0.8em;
+}
